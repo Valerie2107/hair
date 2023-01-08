@@ -1,68 +1,9 @@
 /*photos*/
 .conteneur{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     gap: 10px;
-    grid-template-rows: 1fr 1fr 1fr;
 }
-
-.un{
-    grid-column-start:1 ;
-    grid-column-end: 1;
-}
-.deux{
-    grid-column-start:2 ;
-    grid-column-end: 2;
-}
-.trois{
-    grid-column-start:3 ;
-    grid-column-end: 3;
-}
-.quatre{
-    grid-column-start:1 ;
-    grid-column-end: 1;
-}
-.cinq{
-    grid-column-start:2 ;
-    grid-column-end: 2;
-}
-.six{
-    grid-column-start:3 ;
-    grid-column-end: 3;
-}
-.sept{
-    grid-column-start:1 ;
-    grid-column-end: 1;
-}
-.huit{
-    grid-column-start:2 ;
-    grid-column-end: 2;
-}
-.neuf{
-    grid-column-start:3 ;
-    grid-column-end: 3;
-}
-.dix{
-    grid-column-start:1 ;
-    grid-column-end: 1;
-}
-.onze{
-    grid-column-start:2 ;
-    grid-column-end: 2;
-}
-.douze{
-    grid-column-start:3 ;
-    grid-column-end: 3;
-}
-.treize{
-    grid-column-start:1 ;
-    grid-column-end: 1;
-}
-.quatorze{
-    grid-column-start:2 ;
-    grid-column-end: 2;
-}
-.quinze{
-    grid-column-start:3 ;
-    grid-column-end: 3;
+.box{
+    width: 100%;
 }
