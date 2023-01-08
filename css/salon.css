@@ -1,0 +1,15 @@
+/*page salon*/
+.double_volet{
+    display: grid;
+    gap: 1em;
+ }
+ img{
+    max-height:auto;
+    width: 550px;
+ }
+ .gd_pt{
+    grid-template-columns: 3fr 2fr;
+}
+.pt_gd{
+    grid-template-columns: 2fr 3fr;
+}

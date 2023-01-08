@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html{
+    min-height: 100%;
+    display: flex;
+    font-family: 'ubuntu', sans-serif;
+}
+body{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* header */
+header{
+    padding: 1em;
+    text-align: center;
+    font-size: large;
+    background-color: beige;
+}
+header section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    height: 5em;
+    width: 20em;
+    color: hsl(22, 97%, 59%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic bold;
+}
+button:hover{
+    opacity: 0.5;
+}
+button:active{
+    text-decoration-color: orangered ;
+}
+#lampes{
+    width: 200px;
+}
+
+/*nav barre*/
+nav{
+    position:sticky;
+    top: 0;
+    z-index: 0;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    flex-wrap: wrap;
+    background-color: greenyellow;
+}
+nav a:hover{
+    opacity: 0.5;
+    color: hsl(22, 97%, 59%);
+}
+
+/*main général*/
+main{
+    padding:1em;
+    padding: top 0.5rem;
+    flex-grow: 1; 
+}
+h1{
+    text-align: center;
+    color: hsl(22, 97%, 59%);
+}
+h2{
+    /*text-align: center;-*/
+    color: hsl(22, 97%, 59%);
+}
+/*footer*/
+footer{
+    position: relative;
+    bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: large;
+    text-align: center;
+    background-color: brown;
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  /*main par page*/
+
+
+
+
+
+
+
+
+/*div{
+    background: #f003;
+}*/
