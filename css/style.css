@@ -30,13 +30,14 @@ header section{
     align-items: center;
 }
 .rdv{
-    color: black;
+    color: hsl(22, 97%, 59%);;
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic bold;
+    font-style: italic;
+    font-weight: bold;
     font-size: 0.8em;
     padding: 1em 1.5em;
-    border: 2px solid black;
+    border: 2px solid hsl(22, 97%, 59%);;
     border-radius: 8px;
 }
 .rdv:hover{
@@ -54,6 +55,7 @@ header section{
 /*nav barre*/
 nav{
     font-size: large;
+    font-weight: bold;
     position:sticky;
     top: 0;
     z-index: 10;
@@ -82,7 +84,7 @@ main{
 }
 h1{
     text-align: center;
-    color: hsl(22, 97%, 59%);
+    /*color: hsl(22, 97%, 59%);*/
 }
 h2{
     /*text-align: center;-*/
@@ -107,18 +109,19 @@ footer{
 #Btt{
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: hsl(22, 97%, 59%); /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-    }
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: hsl(22, 91%, 78%); 
+    color: rgb(43, 42, 42);
+    border: 2px solid rgb(43, 42, 42);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px; 
+    font-size: 18px;
+}
 #Btt:hover {
-  background-color: hsl(22, 97%, 59%);
+    background-color: hsl(22, 97%, 59%);
 }

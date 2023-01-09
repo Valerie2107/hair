@@ -14,7 +14,14 @@
 .pt_gd{
     grid-template-columns: 2fr 3fr;
 }
-
+.droite{
+  display: inline-block;
+  text-align: right;
+}
+.gauche{
+  display: inline-block;
+  text-align: left;
+}
 /*carrousel*/
 .custom-slider { display: none; }
 .slide-container {
