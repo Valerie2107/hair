@@ -1,4 +1,7 @@
 /*page salon*/
+.salon{
+  text-align: center;
+}
 .double_volet{
     display: grid;
     gap: 1em;
@@ -14,12 +17,15 @@
 .pt_gd{
     grid-template-columns: 2fr 3fr;
 }
+ul{
+  list-style: none;
+  padding:0px;
+  margin:0px
+}
 .droite{
-  display: inline-block;
   text-align: right;
 }
 .gauche{
-  display: inline-block;
   text-align: left;
 }
 /*carrousel*/
