@@ -19,13 +19,14 @@
             </button>
             <img id="lampes" src="images/photos/poster.jpg" alt="logo du coiffeur Haircoholix">
              fb et insta
+        </section>     
     </header>
     <nav>
         <a href="salon.html" target="">Le salon</a>
         <a href="prix.html" target="_blank">Nos services</a>
         <a href="photo.html" target="_blank">Portfolio</a>
-        <a href="#reviews" target=>Reviews</a>
-        <a href="#contact" target=>Contact</a>
+        <a href="#reviews" target="#reviews">Reviews</a>
+        <a href="#contact" target="#contact">Contact</a>
     </nav>
     <main>
         <h1><strong>Vos cheveux, Notre passion</strong></h1>
@@ -85,13 +86,13 @@
                 <div><img src="images/photos/before-ext.jpg" alt="photo de cheveux avant-après"></div>
             </div>
             <br>
-            <h2 class="salon">Reviews</h2>
-                <div id="review_widget">
+            <h2 class="salon" id="reviews">Reviews</h2>
+                <div>
                 </div>
                 <br>
             <div class="double_volet pt_gd"> 
                 <section>
-                    <h2 class="salon">Contact</h2>
+                    <h2 class="salon" id="contact">Contact</h2>
                     <address>
                      <p>Av. du Duc Jean 22,
                         <br>1083 Ganshoren
@@ -116,13 +117,14 @@
     </main>
     <footer>
         <section>
-        <button class="rdv">
-            Prendre rendez-vous
-        </button>
-        idem header mais en plus petit
-    </section>
+            <button class="rdv">
+                Prendre rendez-vous
+            </button>
+            idem header mais en plus petit
+        </section>
     </footer>
     <button onclick="backToTop()" id="Btt" title="Back to top">Top</button> 
+
     <script src="js/slider.js"></script>
     <script src="js/lightbox.js"></script>
     <script src="js/btt.js"></script>
