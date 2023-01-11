@@ -29,7 +29,7 @@
         <a href="#contact" target="#contact">Contact</a>
     </nav>
     <main>
-        <h1><strong><a href="#btt">Vos cheveux, Notre passion</a></strong></h1>
+        <h1><strong>Vos cheveux, Notre passion</strong></h1>
         <div class="slide-container">
             <div class="custom-slider fondu">
               <div class="slide-index">1 / 5</div>
@@ -58,18 +58,18 @@
             </div>
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
-          <br>
-          <div class="slide-dot">
-            <div class="dot" onclick="currentSlide(1)"></div> 
-            <div class="dot" onclick="currentSlide(2)"></div> 
-            <div class="dot" onclick="currentSlide(3)"></div>
-            <div class="dot" onclick="currentSlide(4)"></div>
-            <div class="dot" onclick="currentSlide(5)"></div> 
-          </div>
-            <br>
-            <div class="double_volet gd_pt">
-                <div style="background-image:url('images/photos/coupe-miroir.jpg'); width:100%;min-height:500px;"></div>
+        </div>
+        <br>
+        <div class="slide-dot">
+        <div class="dot" onclick="currentSlide(1)"></div> 
+        <div class="dot" onclick="currentSlide(2)"></div> 
+        <div class="dot" onclick="currentSlide(3)"></div>
+        <div class="dot" onclick="currentSlide(4)"></div>
+        <div class="dot" onclick="currentSlide(5)"></div> 
+        </div>
+        <br>
+        <div class="double_volet gd_pt">
+            <div style="background-image:url('images/photos/coupe-miroir.jpg'); width:100%;min-height:500px;"></div>
                 <div>
                     <h2 class="salon">Le salon</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nulla quo voluptatum repellendus, numquam delectus recusandae doloremque ad expedita aperiam eos provident aut ipsam nemo facilis, reiciendis illum assumenda cum.</p>
@@ -93,12 +93,15 @@
             <div class="double_volet pt_gd"> 
                 <section>
                     <h2 class="salon" id="contact">Contact</h2>
+                    <br>
+                    <div class="centrage">
                     <address>
-                     <p>Av. du Duc Jean 22,
-                        <br>1083 Ganshoren
-                    </p> 
+                        <p>Av. du Duc Jean 22,
+                        <br>1083 Ganshoren</p> 
                     <p>02 445 05 22
                     <br>0493 03 33 03</p>
+                    </address> 
+                    <br>
                     <ul>
                         <li><div class="gauche">Lundi</div><div class="droite">Fermé</div></li>
                         <li><div class="gauche">Mardi</div><div class="droite">09:30–18:00</div></li>
@@ -108,7 +111,8 @@
                         <li><div class="gauche">Samedi</div><div class="droite">09:30–16:00</div></li>
                         <li><div class="gauche">Dimanche</div><div class="droite">Fermé</div></li>
                     </ul>
-                    </address>
+                    
+                </div>
                 </section>
                 <section>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.998069814582!2d4.317891715746573!3d50.86823547953514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3e7111a33f3%3A0xf060fe389cfd5a1c!2sHaircoholix!5e0!3m2!1sfr!2sbe!4v1672345670025!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -123,7 +127,7 @@
             idem header mais en plus petit
         </section>
     </footer>
-    <button onclick="backToTop()" id="Btt" title="Back to top">Top</button> 
+    <button onclick="backToTop()" id="btt" title="Back to top">Top</button> 
 
     <script src="js/slider.js"></script>
     <script src="js/lightbox.js"></script>

@@ -3,12 +3,15 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    scroll-behavior: smooth;
+}
 html{
     min-height: 100%;
     display: flex;
     font-family: 'ubuntu', sans-serif;
     color: rgb(43, 42, 42);
-    margin:2vh;
+    scroll-behavior: smooth;
 }
 body{
     flex-grow: 1;
@@ -47,7 +50,7 @@ header section{
     color: white;
 }
 .rdv:active{
-    text-decoration-color: orangered ;
+    text-decoration-color: hsl(22, 97%, 59%); ;
 }
 #lampes{
     width: 200px;
@@ -85,10 +88,11 @@ main{
     padding:1em;
     padding: top 0.5rem;
     flex-grow: 1; 
+    margin: 2em;
 }
 h1{
     text-align: center;
-    /*color: hsl(22, 97%, 59%);*/
+    font-size: 3em;
 }
 h2{
     /*text-align: center;-*/
@@ -116,7 +120,7 @@ footer section{
     align-items: center;
 }
 
-#Btt{
+#btt{
     color: hsl(22, 97%, 59%);;
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -124,7 +128,7 @@ footer section{
     font-weight: bold;
     font-size: 0.8em;
     padding: 1em 1.5em;
-    border: 2px solid hsl(22, 97%, 59%);;
+    border: 2px solid hsl(22, 97%, 59%);
     border-radius: 8px;
     display: none;
     position: fixed; /* Fixed/sticky position */
