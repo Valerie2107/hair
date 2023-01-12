@@ -49,8 +49,9 @@ header section{
     background-color: hsl(22, 97%, 59%);
     color: white;
 }
-.rdv:active{
-    text-decoration-color: hsl(22, 97%, 59%); ;
+.rdv a{
+    text-decoration: none;
+    color: hsl(22, 97%, 59%);
 }
 #lampes{
     width: 200px;
@@ -102,7 +103,7 @@ h2{
 footer{
     position: relative;
     bottom: 0;
-    padding: 1em auto;
+    padding: 1em;
     font-size: large;
     text-align: center;
     background-color: brown;
