@@ -25,7 +25,7 @@ header{
     padding: 1em;
     text-align: center;
     font-size: large;
-    background-color: white;
+    background-color: rebeccapurple;
 }
 header section{
     display: flex;

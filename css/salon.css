@@ -2,6 +2,10 @@
 .salon{
   text-align: center;
 }
+.piou{
+  margin: 0 auto;
+  max-width: 60ch;
+}
 .double_volet{
     display: grid;
     gap: 1em;
@@ -25,7 +29,6 @@ ul{
   list-style: none;
   padding:0px;
   margin:0px;
-  
 }
 ul li{
   display: grid;
@@ -38,7 +41,9 @@ ul li{
   text-align: right;
 }
 /*carrousel*/
-.custom-slider { display: none; }
+.custom-slider { 
+  display: none; 
+}
 .slide-container {
   max-width: 800px;
   position: relative;
@@ -48,7 +53,7 @@ ul li{
   cursor: pointer;
   position: absolute;        
   top: 50%;
-  transform: translateY(-50%);
+  /*transform: translateY(-50%);*/
   width: 60px;
   height: 60px;
   display: flex;
