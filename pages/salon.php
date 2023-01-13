@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hair</title>
+    <title>Haircoholix</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/photos.css" rel="stylesheet">
     <link href="css/salon.css" rel="stylesheet">
@@ -12,22 +12,10 @@
     <link href="css/lightbox.min.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <section>
-            <button class="rdv"><a href="tel:+3224450522">
-                Prendre rendez-vous</a>
-            </button>
-            <img id="lampes" src="images/photos/lampes-bis.webp" alt="logo du coiffeur Haircoholix">
-            
-        </section>     
-    </header>
-    <nav>
-        <a href="salon.html" target="">Le salon</a>
-        <a href="prix.html" target="_blank">Nos services</a>
-        <a href="photo.html" target="_blank">Portfolio</a>
-        <a href="#reviews" target="#reviews">Reviews</a>
-        <a href="#contact" target="#contact">Contact</a>
-    </nav>
+
+<?php include 'include/header.inc.php' ?>
+<?php include 'include/nav.inc.php' ?>
+    
     <main>
         <h1><strong>Vos cheveux, Notre passion</strong></h1>
         <div class="slide-container">
@@ -81,6 +69,7 @@
             <div class="double_volet gd_pt">
                 <div>
                     <h2 class="salon">Nos services</h2>
+                    <p>Passez nous voir pour un conseil ou un devis sans engagement: fort de plus de 35ans d'expérience, nous sommes à l'écoute de vos attentes et de vos désirs afin de vous conseiller et de créer la coupe qui mettra en valeur votre visage.</p>
                         <div class="piou">
                             <li><div class="gauche">COUPE HOMME</div><div class="droite">€18,00</div></li>
                             <li><div class="gauche">TAILLAGE DE BARBE à la tondeuse</div><div class="droite">€10,00</div></li>
@@ -124,18 +113,14 @@
                 </section>
             </div>
     </main>
-    <footer>
-        <section>
-            <button class="rdv"><a href="tel:+3224450522">
-                Prendre rendez-vous</a>
-            </button>
-            idem header mais en plus petit
-        </section>
-    </footer>
+   
+    <?php include 'include/footer.inc.php' ?>
+   
     <button onclick="backToTop()" id="btt" title="Back to top">Top</button> 
 
     <script src="js/lightbox.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/btt.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 </body>
 </html>

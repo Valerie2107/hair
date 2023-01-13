@@ -11,23 +11,10 @@
     <link href="css/lightbox.min.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <section>
-            <button class="rdv"><a href="tel:+3224450522">
-                Prendre rendez-vous</a>
-            </button>
-            <img id="lampes" src="images/photos/lampes-bis.webp" alt="logo du coiffeur Haircoholix">
-           
-        </section>
-    </header>
-    <hr>
-    <nav>
-        <a href="salon.html" target="_blank">Le salon</a>
-        <a href="prix.html" target=>Nos services</a>
-        <a href="photo.html" target="_blank">Portfolio</a>
-        <a href="salon.html#reviews" target="salon.html#reviews">Reviews</a>
-        <a href="salon.html#contact" target="salon.html#contact">Contact</a>
-    </nav>
+    
+<?php include 'include/header.inc.php' ?>
+<?php include 'include/nav.inc.php' ?>
+
     <main>
         <h1><strong>Vos cheveux, Notre passion</strong></h1>
             <div class="prix">
@@ -89,17 +76,14 @@
             </ul>
             </div>
     </main>
-    <footer>
-        <div class="colonne">
-            <button class="rdv"><a href="tel:+3224450522">
-                Prendre rendez-vous</a>
-            </button>
-        </div>
-    </footer>
+    
+    <?php include 'include/footer.inc.php' ?>
+
     <button onclick="backToTop()" id="btt" title="Back to top">Top</button> 
 
     <script src="js/lightbox.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/btt.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 </body>
 </html>
