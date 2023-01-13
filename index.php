@@ -1,7 +1,4 @@
 <?php
-// mon controleur frontal
-
-
 
 if(isset($_GET['vue'])){
 
