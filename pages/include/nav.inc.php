@@ -1,7 +1,7 @@
 <nav>
-    <a href="salon.html" target="">Le salon</a>
-    <a href="prix.html" target="_blank">Nos services</a>
-    <a href="photo.html" target="_blank">Portfolio</a>
-    <a href="#reviews" target="#reviews">Reviews</a>
-    <a href="#contact" target="#contact">Contact</a>
+    <a href="?salon.php">Le salon</a>
+    <a href="?prix.php">Nos services</a>
+    <a href="?photo.php">Portfolio</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
 </nav>

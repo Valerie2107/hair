@@ -35,6 +35,7 @@ header section{
 }
 .espacement span{
     padding:1em;
+    width: 1.5%;
 }
 .rdv{
     color: hsl(22, 97%, 59%);
