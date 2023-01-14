@@ -25,13 +25,16 @@ header{
     padding: 1em;
     text-align: center;
     font-size: large;
-    background-color: rebeccapurple;
 }
 header section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.espacement span{
+    padding: 1em;
+    width: 1.5%;
 }
 .rdv{
     color: hsl(22, 97%, 59%);
@@ -43,10 +46,14 @@ header section{
     padding: 1em 1.5em;
     border: 2px solid hsl(22, 97%, 59%);
     border-radius: 8px;
+    transition: background 0.3s ease-in-out;
 }
 .rdv:hover{
     opacity: 0.5;
     background-color: hsl(22, 97%, 59%);
+    color: white;
+}
+.rdv:hover a{
     color: white;
 }
 .rdv a{
@@ -56,7 +63,6 @@ header section{
 #lampes{
     width: 200px;
 }
-
 /*nav barre*/
 nav{
     font-size: large;
@@ -75,12 +81,13 @@ nav{
 nav a{
     text-decoration: none;
     color: black;
+    padding: 0.5em 1em;
+    transition: background 0.3s ease-in-out;
 }
 nav a:hover{
     opacity: 0.5;
     background-color: hsl(22, 97%, 59%);
     color: white;
-    padding: 0.5em 1em;
     border-radius: 10px;
 }
 
@@ -105,14 +112,7 @@ footer{
     bottom: 0;
     padding: 1em;
     font-size: large;
-    text-align: center;
-    background-color: brown;
-    display: block;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }
 footer section{
     display: flex;
@@ -120,7 +120,6 @@ footer section{
     justify-content: space-around;
     align-items: center;
 }
-
 #btt{
     color: hsl(22, 97%, 59%);;
     background-color: white;
