@@ -19,7 +19,9 @@ body{
     flex-direction: column;
     margin: 0;
 }
-
+.interbloc{
+    height: 2em;
+}
 /* header */
 header{
     padding: 1em;
@@ -121,7 +123,7 @@ footer section{
     align-items: center;
 }
 #btt{
-    color: hsl(22, 97%, 59%);;
+    color: hsl(22, 97%, 59%);
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -138,7 +140,7 @@ footer section{
     outline: none; 
     cursor: pointer;
 }
-#Btt:hover {
+#btt:hover {
     background-color: hsl(22, 97%, 59%);
     color: white;
 }
