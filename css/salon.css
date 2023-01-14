@@ -3,6 +3,9 @@
   text-align: center;
   line-height: 1.5em;
 }
+.bloc_salon{
+  padding: 2em;
+}
 .piou{
   margin: 0 auto;
   max-width: 60ch;
