@@ -85,7 +85,7 @@
             </div>
     <div class="interbloc"></div>
 <!--les reviews quand ça fonctionnera-->
-       <div class="double_volet pt_gd"> 
+ <!--      <div class="double_volet pt_gd"> 
             <div><img src="images/photos/before-ext.jpg" alt="photo de cheveux avant-après"></div>
             <div class="bloc_reviews">
                 <h2 class="salon">Reviews</h2>
@@ -93,7 +93,7 @@
             </div>
         </div>            
     <div class="interbloc"></div>
-    
+-->  
             <div class="double_volet pt_gd"> 
                 <section>
                     <h2 class="salon">Contact</h2>
