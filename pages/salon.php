@@ -18,6 +18,7 @@
     
     <main>
         <h1><strong>Vos cheveux, Notre passion</strong></h1>
+<!--slider-->
         <div class="slide-container">
             <div class="custom-slider fondu">
               <div class="slide-index">1 / 5</div>
@@ -55,17 +56,19 @@
         <div class="dot" onclick="currentSlide(4)"></div>
         <div class="dot" onclick="currentSlide(5)"></div> 
         </div>
-        <br>
+    <div class="interbloc"></div>
+<!--salon-->    
         <div class="double_volet gd_pt">
             <div style="background-image:url('images/photos/coupe-miroir.jpg'); width:100%;min-height:500px;"></div>
-                <div>
-                    <h2 class="salon">Le salon</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nulla quo voluptatum repellendus, numquam delectus recusandae doloremque ad expedita aperiam eos provident aut ipsam nemo facilis, reiciendis illum assumenda cum.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nulla quo voluptatum repellendus, numquam delectus recusandae doloremque ad expedita aperiam eos provident aut ipsam nemo facilis, reiciendis illum assumenda cum.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nulla quo voluptatum repellendus, numquam delectus recusandae doloremque ad expedita aperiam eos provident aut ipsam nemo facilis, reiciendis illum assumenda cum.</p>
-                </div>
+            <div>
+                <h2 class="salon">Le salon</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nulla quo voluptatum repellendus, numquam delectus recusandae doloremque ad expedita aperiam eos provident aut ipsam nemo facilis, reiciendis illum assumenda cum.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nulla quo voluptatum repellendus, numquam delectus recusandae doloremque ad expedita aperiam eos provident aut ipsam nemo facilis, reiciendis illum assumenda cum.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nulla quo voluptatum repellendus, numquam delectus recusandae doloremque ad expedita aperiam eos provident aut ipsam nemo facilis, reiciendis illum assumenda cum.</p>
             </div>
-            <br>
+        </div>
+    <div class="interbloc"></div>
+<!--les services-->
             <div class="double_volet gd_pt">
                 <div>
                     <h2 class="salon">Nos services</h2>
@@ -78,16 +81,22 @@
                             <li><div class="gauche">ÉPILATION AU FIL</div><div class="droite"></div></li>
                         </div>
                 </div>
-                <div><img src="images/photos/before-ext.jpg" alt="photo de cheveux avant-après"></div>
+                <div><img src="images/photos/after.jpg" alt="photo de cheveux avant-après"></div>
             </div>
-            <br>
-            <h2 class="salon" id="reviews">Reviews</h2>
-                <div>
-                </div>
-                <br>
+    <div class="interbloc"></div>
+<!--les reviews quand ça fonctionnera-->
+       <div class="double_volet pt_gd"> 
+            <div><img src="images/photos/before-ext.jpg" alt="photo de cheveux avant-après"></div>
+            <div class="bloc_reviews">
+                <h2 class="salon">Reviews</h2>
+                <img src="images/reviews1.PNG" alt="google reviews">
+            </div>
+        </div>            
+    <div class="interbloc"></div>
+    
             <div class="double_volet pt_gd"> 
                 <section>
-                    <h2 class="salon" id="contact">Contact</h2>
+                    <h2 class="salon">Contact</h2>
                     <br>
                     <div class="centrage">
                     <address>
@@ -106,10 +115,11 @@
                         <li><div class="gauche">Samedi</div><div class="droite">09:30–16:00</div></li>
                         <li><div class="gauche">Dimanche</div><div class="droite">Fermé</div></li>
                     </ul>
+                    <div style="height:5em"></div>  <!--pour permettre une meilleure répartition du iframe-->
                </div>
                 </section>
                 <section>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.998069814582!2d4.317891715746573!3d50.86823547953514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3e7111a33f3%3A0xf060fe389cfd5a1c!2sHaircoholix!5e0!3m2!1sfr!2sbe!4v1672345670025!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.998069814582!2d4.317891715746573!3d50.86823547953514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3e7111a33f3%3A0xf060fe389cfd5a1c!2sHaircoholix!5e0!3m2!1sfr!2sbe!4v1672345670025!5m2!1sfr!2sbe" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </section>
             </div>
     </main>

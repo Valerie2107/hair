@@ -1,8 +1,6 @@
 <?php
 
-if(isset($_GET['vue'])){
-
-    
+if(isset($_GET['vue'])){ 
     
     switch($_GET['vue']){
         case 'salon':

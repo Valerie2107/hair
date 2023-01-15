@@ -3,9 +3,24 @@
   text-align: center;
   line-height: 1.5em;
 }
+.bloc_salon{
+  padding: 0 2em;
+  text-align: center;
+}
+.margin_bottom{
+  margin-bottom:2.5em;
+  font-style: italic;
+}
+.bloc_services{
+  padding: 0 2em;
+  text-align: center;
+}
 .piou{
   margin: 0 auto;
   max-width: 60ch;
+}
+.bloc_reviews{
+  text-align: center;
 }
 .double_volet{
     display: grid;

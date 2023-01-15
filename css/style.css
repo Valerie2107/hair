@@ -19,12 +19,14 @@ body{
     flex-direction: column;
     margin: 0;
 }
+.interbloc{
+    height: 2em;
+}
 /* header */
 header{
     padding: 1em;
     text-align: center;
     font-size: large;
-    background-color: none;
 }
 header section{
     display: flex;
@@ -102,7 +104,6 @@ h1{
     font-size: 3em;
 }
 h2{
-    /*text-align: center;-*/
     color: rgb(43, 42, 42);
 }
 /*footer*/
@@ -120,7 +121,7 @@ footer section{
     align-items: center;
 }
 #btt{
-    color: hsl(22, 97%, 59%);;
+    color: hsl(22, 97%, 59%);
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
@@ -137,7 +138,7 @@ footer section{
     outline: none; 
     cursor: pointer;
 }
-#Btt:hover {
+#btt:hover {
     background-color: hsl(22, 97%, 59%);
     color: white;
 }
