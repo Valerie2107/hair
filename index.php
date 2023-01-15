@@ -2,6 +2,8 @@
 
 if(isset($_GET['vue'])){
 
+    
+    
     switch($_GET['vue']){
         case 'salon':
             include "pages/salon.php";
@@ -13,10 +15,10 @@ if(isset($_GET['vue'])){
             include "pages/photo.php";
             break;
         default:
-            include_once "pages/salon.php";
+           include_once "pages/salon.php";
     }
 }else{
-        include_once "pages/salon.php";
+     include_once "pages/salon.php";
     }
 
 ?>
