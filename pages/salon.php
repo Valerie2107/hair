@@ -38,7 +38,7 @@
             <div class="custom-slider fondu">
                 <div class="slide-index">4 / 5</div>
                 <img class="slide-img" src="images/photos/portfolio1.PNG">
-                <div class="slide-text">I can't do that as Brue Wayne</div>
+                <div class="slide-text">I can't do that as Bruce Wayne</div>
             </div>
             <div class="custom-slider fondu">
                 <div class="slide-index">5 / 5</div>
