@@ -1,13 +1,18 @@
 /*page salon*/
 .salon{
   text-align: center;
-  line-height: 1.5em;
+  line-height: 1em;
+  padding: 1em;
 }
 #salon{
-  background-image:url('images/photos/coupe-miroir.jpg'); 
-  width:80%;
-  min-height:800px; 
+  background-image:url('../images/photos/coupe-miroir.jpg');
+  background-size: cover;
+  width:100%;
+  /*min-height:800px; */
   background-repeat: no-repeat;
+}
+#padding_texte{
+  padding-bottom: 2em;
 }
 .bloc_salon{
   padding: 0 2em;
@@ -70,6 +75,7 @@ ul li{
 #photos{
   position: relative;
   height: 350px;
+  width: 480px;
   overflow: hidden;
   margin: auto;
 }
@@ -78,12 +84,15 @@ ul li{
 }
 #slideshow{
   position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   width: 580px;   /*6photos de 580px -- 6x580px=3840px*/
   margin: 0;
   padding: 0;
 
   animation-name: slider;
-  animation-duration: 10s;   
+  animation-duration: 20s;   
   animation-iteration-count: infinite; /*jamais de temps d'arrêt*/
   animation-timing-function: linear;
 }
