@@ -21,7 +21,7 @@
             <span class="espacement">
                 <span><a href="https://www.instagram.com/haircoholixbxl/?hl=fr" target="_blank"><iconify-icon icon="logos:instagram" height="1.5em"></iconify-icon></a></span>
                 <span><a href="https://www.facebook.com/haircoholixBXL/" target="_blank"><iconify-icon icon="logos:facebook" height="2em"></iconify-icon></a></span>
-                <span><a><iconify-icon icon="logos:messenger" height="2em"></iconify-icon></a></span>
+                <span><a href="https://www.facebook.com/messages/t/668984336611264" target="_blank"><iconify-icon icon="logos:messenger" height="2em"></iconify-icon></a></span>
             </span>
         </section>  
         <br>
@@ -35,10 +35,10 @@
         <a href="#contact" target="#contact">Contact</a>
     </nav>
     <main>
-        <h1><strong>Vos cheveux, Notre passion</strong></h1>
+        
         <div id="photos">
             <ul id="slideshow">
-                <li><img src="images/photos/bras-ciseaux.webp"></li><li><img src="images/photos/outside.jpg"></li><li><img src="images/photos/lampes.webp"></li><li><img src="images/photos/portfolio1.PNG"></li><li><img src="images/photos/sechage.webp"></li><li><img src="images/photos/bras-ciseaux.webp"></li>
+                <li class="custom-slider"><img class="picture" src="images/photos/bras-ciseaux.webp"></li><li class="custom-slider"><img class="picture" src="images/photos/outside.jpg"></li><li class="custom-slider"><img class="picture" src="images/photos/lampes.webp"></li><li class="custom-slider"><img class="picture" src="images/photos/portfolio1.PNG"></li><li class="custom-slider"><img class="picture" src="images/photos/sechage.webp"></li><li><img class="picture" src="images/photos/bras-ciseaux.webp"></li>
             </ul>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -46,16 +46,16 @@
         </div>
         <br>
         <div class="slide-dot">
+        <div class="dot" onclick="currentSlide(0)"></div> 
         <div class="dot" onclick="currentSlide(1)"></div> 
-        <div class="dot" onclick="currentSlide(2)"></div> 
+        <div class="dot" onclick="currentSlide(2)"></div>
         <div class="dot" onclick="currentSlide(3)"></div>
-        <div class="dot" onclick="currentSlide(4)"></div>
-        <div class="dot" onclick="currentSlide(5)"></div> 
+        <div class="dot" onclick="currentSlide(4)"></div> 
         </div>
     <div class="interbloc"></div>
     <!--le salon-->
         <div class="double_volet gd_pt">
-            <div style="background-image:url('images/photos/coupe-miroir.jpg'); width:100%;min-height:500px;"></div>
+            <div  style="background-image:url('images/photos/coupe-miroir.jpg'); width:100%;min-height:500px;"></div>
                 <div class="bloc_salon">
                     <h2 class="salon">Le salon</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et nulla quo voluptatum repellendus, numquam delectus recusandae doloremque ad expedita aperiam eos provident aut ipsam nemo facilis, reiciendis illum assumenda cum.</p>
@@ -79,12 +79,12 @@
                             <li><div class="gauche">ÉPILATION AU FIL</div><div class="droite"></div></li>
                         </div>
                 </div>
-                <div><img src="images/photos/after.jpg" alt="photo de cheveux avant-après"></div>
+                <div><img  src="images/photos/after.jpg" alt="photo de cheveux avant-après"></div>
             </div>
     <div class="interbloc"></div>        
-    <!--les reviews quand cela fonctionnera-->
- <!--       <div class="double_volet pt_gd"> 
-            <div><img src="images/photos/before-ext.jpg" alt="photo de cheveux avant-après"></div>
+    <les reviews quand cela fonctionnera-->
+ <!--      <div class="double_volet pt_gd"> 
+            <div><img  src="images/photos/before-ext.jpg" alt="photo de cheveux avant-après"></div>
             <div class="bloc_reviews">
                 <h2 class="salon">Reviews</h2>
                 <img src="images/reviews1.PNG" alt="google reviews">
@@ -140,7 +140,7 @@
     <button onclick="backToTop()" id="btt" title="Back to top">Top</button> 
 
     <script src="js/lightbox.min.js"></script>
-    <script src="js/slider.js"></script>
+    <!--<script src="js/slider.js"></script>-->
     <script src="js/btt.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 </body>
