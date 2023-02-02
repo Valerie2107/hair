@@ -65,6 +65,13 @@ header section{
 #lampes{
     width: 200px;
 }
+h1{
+   color:hsl(22, 97%, 59%);
+}
+hr{
+    color: hsl(22, 97%, 59%);
+    width: 90%;
+}
 /*nav barre*/
 nav{
     font-size: large;
@@ -82,7 +89,7 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color: black;
+    color:hsl(22, 97%, 59%);
     padding: 0.5em 1em;
     transition: background 0.3s ease-in-out;
 }

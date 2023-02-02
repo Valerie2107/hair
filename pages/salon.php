@@ -17,7 +17,6 @@
 <?php include 'include/nav.inc.php' ?>
     
     <main>
-        <h1><strong>Vos cheveux, Notre passion</strong></h1>
 <!--slider-->
         <div class="slide-container">
             <div class="custom-slider fondu">
@@ -126,7 +125,7 @@
    
     <?php include 'include/footer.inc.php' ?>
    
-    <button onclick="backToTop()" id="btt" title="Back to top">Top</button> 
+    <?php include 'include/btt.inc.php' ?>
 
     <script src="js/lightbox.min.js"></script>
     <script src="js/slider.js"></script>
