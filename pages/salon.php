@@ -17,7 +17,6 @@
 <?php include 'include/nav.inc.php' ?>
     
     <main>
-        <h1><strong>Vos cheveux, Notre passion</strong></h1>
 <!--slider-->
         <div class="slide-container">
             <div class="custom-slider fondu">
@@ -38,7 +37,7 @@
             <div class="custom-slider fondu">
                 <div class="slide-index">4 / 5</div>
                 <img class="slide-img" src="images/photos/portfolio1.PNG">
-                <div class="slide-text">I can't do that as Brue Wayne</div>
+                <div class="slide-text">I can't do that as Bruce Wayne</div>
             </div>
             <div class="custom-slider fondu">
                 <div class="slide-index">5 / 5</div>
@@ -126,7 +125,7 @@
    
     <?php include 'include/footer.inc.php' ?>
    
-    <button onclick="backToTop()" id="btt" title="Back to top">Top</button> 
+    <?php include 'include/btt.inc.php' ?>
 
     <script src="js/lightbox.min.js"></script>
     <script src="js/slider.js"></script>

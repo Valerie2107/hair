@@ -10,6 +10,6 @@
             <span><a><iconify-icon icon="logos:messenger" height="2em"></a></iconify-icon></span>
         </span>
     </section>  
-    <br>
+    <h1><strong>Vos cheveux, Notre passion</strong></h1>
     <hr>   
 </header>
