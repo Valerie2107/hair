@@ -72,6 +72,7 @@
                 <div>
                     <h2 class="salon">Nos services</h2>
                     <p>Passez nous voir pour un conseil ou un devis sans engagement: fort de plus de 35ans d'expérience, nous sommes à l'écoute de vos attentes et de vos désirs afin de vous conseiller et de créer la coupe qui mettra en valeur votre visage.</p>
+                        <div class="interbloc"></div>
                         <div class="piou">
                             <li><div class="gauche">COUPE HOMME</div><div class="droite">€18,00</div></li>
                             <li><div class="gauche">TAILLAGE DE BARBE à la tondeuse</div><div class="droite">€10,00</div></li>

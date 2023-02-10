@@ -1,3 +1,16 @@
+.double_volet{
+    display: grid;
+    gap: 1em;
+    margin: 1em auto;
+ }
+.gd_pt{
+   grid-template-columns: 3fr 2fr;
+}
+.pt_gd{
+   grid-template-columns: 2fr 3fr;
+}
+
+
 /*page salon*/
 .salon{
   text-align: center;
@@ -11,6 +24,8 @@
   margin-bottom:2.5em;
   font-style: italic;
 }
+
+/*services*/
 .bloc_services{
   padding: 0 2em;
   text-align: center;
@@ -19,24 +34,26 @@
   margin: 0 auto;
   max-width: 60ch;
 }
+.piou li{
+  list-style: none;
+}
+.gauche{
+  text-align: left;
+}
+.droite{
+  text-align: right;
+}
+
+/*review*/
 .bloc_reviews{
   text-align: center;
 }
-.double_volet{
-    display: grid;
-    gap: 1em;
-    margin: 1em auto;
- }
  img{
     max-height:auto;
     width: 550px;
  }
- .gd_pt{
-    grid-template-columns: 3fr 2fr;
-}
-.pt_gd{
-    grid-template-columns: 2fr 3fr;
-}
+
+/*contact*/
 .centrage{
   margin: 0 auto;
   max-width: 40ch;
@@ -50,12 +67,8 @@ ul li{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.gauche{
-  text-align: left;
-}
-.droite{
-  text-align: right;
-}
+
+
 /*carrousel*/
 .custom-slider { 
   display: none; 

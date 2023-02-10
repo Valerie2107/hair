@@ -1,1 +1,1 @@
-<button onclick="backToTop()" id="btt" title="Back to top"><img src="images/arrow.jpg" alt=""></button> 
+<button onclick="backToTop()" id="btt" title="Back to top">To top</button> 
