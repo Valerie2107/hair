@@ -71,19 +71,20 @@ hr{
 }
 /*nav barre*/
 nav{
-    font-size: large;
-    font-weight: bold;
-    position:sticky;
-    padding: 0.5em;
-    top: 0;
-    z-index: 10;
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: white;  
+    padding: 0.5em;
     margin: 0 3em;
+    top: 0;
+    position:sticky;
+
+    font-size: large;
+    font-weight: bold;
+    background-color: white;  
+    z-index: 10;
 }
 nav a{
     text-decoration: none;
@@ -93,7 +94,6 @@ nav a{
     border-radius: 10px;
 }
 nav a:hover{
-    opacity: 0.5;
     background-color: hsl(22, 97%, 59%);
     color: white;
     border: 2px solid #2e2e2e59;
