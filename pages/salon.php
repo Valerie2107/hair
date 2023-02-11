@@ -71,7 +71,7 @@
             <div class="double_volet gd_pt">
                 <div>
                     <h2 class="salon">Nos services</h2>
-                    <p>Passez nous voir pour un conseil ou un devis sans engagement: fort de plus de 35ans d'expérience, nous sommes à l'écoute de vos attentes et de vos désirs afin de vous conseiller et de créer la coupe qui mettra en valeur votre visage.</p>
+                    <p class="margin_bottom">Passez nous voir pour un conseil ou un devis sans engagement: fort de plus de 35ans d'expérience, nous sommes à l'écoute de vos attentes et de vos désirs afin de vous conseiller et de créer la coupe qui mettra en valeur votre visage.</p>
                         <div class="interbloc"></div>
                         <div class="piou">
                             <li><div class="gauche">COUPE HOMME</div><div class="droite">€18,00</div></li>
@@ -85,7 +85,7 @@
             </div>
     <div class="interbloc"></div>
 <!--les reviews quand ça fonctionnera-->
- <!--      <div class="double_volet pt_gd"> 
+     <div class="double_volet pt_gd"> 
             <div><img src="images/photos/before-ext.jpg" alt="photo de cheveux avant-après"></div>
             <div class="bloc_reviews">
                 <h2 class="salon">Reviews</h2>
@@ -93,7 +93,7 @@
             </div>
         </div>            
     <div class="interbloc"></div>
--->  
+ 
             <div class="double_volet pt_gd"> 
                 <section>
                     <h2 class="salon">Contact</h2>
